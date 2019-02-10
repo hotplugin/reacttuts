@@ -11,7 +11,7 @@ class App extends Component {
     return (
       
       <BrowserRouter>
-      <div className="App">
+      <div className="container">
       <Header/>
       <Switch>
         <Route path="/" component={Home} exact/>
